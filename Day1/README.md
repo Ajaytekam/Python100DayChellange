@@ -1,3 +1,12 @@
+## Running the application
+
+```
+virtualenv -p python3 venv
+. venv/bin/activate
+pip3 install flask flask-sqlalchemy
+python3 -m flask run --host=0.0.0.0
+```
+
 ## Setting up environment 
 
 * Setting up virtualenv  
