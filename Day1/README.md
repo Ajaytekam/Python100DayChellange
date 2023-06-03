@@ -1,5 +1,13 @@
 ## Running the application
 
+With Docker-Compose 
+
+```
+docker-compose up
+```  
+
+And with python3  
+
 ```
 virtualenv -p python3 venv
 . venv/bin/activate
